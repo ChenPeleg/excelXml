@@ -58,6 +58,7 @@ namespace EPPlusSamples
             using (ExcelPackage p = new ExcelPackage(template, true))
             {
                 //Set up the headers
+                //default for sheets is 1 for dotnetcore
                 ExcelWorksheet ws = p.Workbook.Worksheets[1];
                 ws.Cells["A20"].Value = "Date";
                 ws.Cells["B20"].Value = "EOD Rate";
@@ -85,9 +86,10 @@ namespace EPPlusSamples
                     row.Style.Font.Color.SetColor(Color.Black);
                     row.Style.Font.Bold = true;
                 }
-
+                /*
                 int startRow = 22;
                 //Connect to the database and fill the data
+               
                 using (SqlConnection sqlConn = new SqlConnection(connectionString))
                 {
                     int row = startRow;
@@ -129,7 +131,7 @@ namespace EPPlusSamples
                     chart.Series[2].XSeries = "'" + ws.Name + "'!" + ExcelRange.GetAddress(startRow + 1, 1, row - 1, 1);
                     chart.Series[2].Series = "'" + ws.Name + "'!" + ExcelRange.GetAddress(startRow + 1, 7, row - 1, 7);
                 }
-                
+              */
                 //Get the documet as a byte array from the stream and save it to disk.  (This is useful in a webapplication) ... 
                 Byte[] bin = p.GetAsByteArray();
 
