@@ -1,5 +1,0 @@
-<conditions>
-  <ORcondition>
-    <AndCondition field="TestDate" operator="&gt;=" value1="38724" value2="" />
-  </ORcondition>
-</conditions>

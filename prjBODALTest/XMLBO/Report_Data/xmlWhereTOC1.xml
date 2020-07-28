@@ -1,6 +1,0 @@
-<conditions>
-  <ORcondition>
-    <AndCondition field="Id" operator="=" value1="42" value2="" />
-    <AndCondition field="PageId" operator="=" value1="1" value2="" />
-  </ORcondition>
-</conditions>

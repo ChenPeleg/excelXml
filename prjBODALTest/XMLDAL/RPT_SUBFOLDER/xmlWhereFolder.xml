@@ -1,8 +1,0 @@
-<conditions>
-  <ORcondition>
-      <AndCondition field="ReportFolder" operator="=" value1="/QCDev" value2="" />
-      
-    
-    
-  </ORcondition>
-</conditions>

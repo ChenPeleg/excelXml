@@ -1,9 +1,0 @@
-<root>
-  <Root>
-    <Root>
-      <Root>
-        <APR_Contractor ContractorCode="9490" ContractorName="איזוטופ" SubContractorName="" Date="41730" ApprovalExpireDate="41910" ElementNames="הכל,גשרים" SpcBookStageId="43" SpcBookStageName="בזק" AuthorityName="" AuthorityDate="" MaatzCertificate="" MaatzExpirityDate="" GreenCertificate="" GreenExpirtyDate="" PassId="2" IssuerName="" DocumentationFilesNames="NewID:145821" Notes="" Id="1" UpdateTimeStamp="41744.065140982" Status="Update" InsertTimeStamp="41744.056738462" UpdateUserId="TNM-WEB\danny" />
-        <APR_Contractor_Documentation Name="NewID" DocumentTypeName="אי התאמה" DocumentationTypeId="5" DocumentPath="d63625c2-9d25-4765-a647-0a4901e39a8c.xls" InsertTimeStamp="41745.0155556597" UpdateTimeStamp="41745.0155556597" Id="1" AprContractorId="1" Status="Insert" GeoDocId="145821" InsertUserId="TNM-WEB\danny" UpdateUserId="TNM-WEB\danny" />
-      </Root>    </Root>
-  </Root>
-</root>

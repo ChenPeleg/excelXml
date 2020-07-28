@@ -1,6 +1,0 @@
-
-<conditions>
-  <ORcondition>
-    <AndCondition field="Id" operator="in" value1="(select Id from tmp)" value2="" />
-  </ORcondition>
-</conditions>

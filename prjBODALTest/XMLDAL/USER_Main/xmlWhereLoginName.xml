@@ -1,5 +1,0 @@
-<conditions>
-  <ORcondition>
-    <AndCondition field="LoginName" operator="=" value1="volodymyr.hutsuliak@uco.co.il" value2="" />
-  </ORcondition>
-</conditions>

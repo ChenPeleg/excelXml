@@ -1,4 +1,0 @@
-<ORcondition>
-  <AndCondition field="Id" operator="<" value1="30920" value2="" />
-  <AndCondition field="productid" operator="in" value1="(95132)" value2="" />
-</ORcondition>

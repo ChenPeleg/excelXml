@@ -1,5 +1,0 @@
-<conditions>
-  <ORcondition>
-    <AndCondition field="TestDate" operator="Between" value1="38800" value2="38806" />
-  </ORcondition>
-</conditions>

@@ -1,8 +1,0 @@
-<conditions>
-  <ORcondition>
-    <AndCondition field="PrjProductTreeId" operator="in" value1="(15)" value2="כביש 431,אזרחי,קטע ד" />
-    <AndCondition field="ContractorCode" operator="=" value1="1025" value2="מנופי אשדוד בע&quot;מ" />
-    <AndCondition field="FromCut" operator="&gt;=" value1="100" value2="" />
-    <AndCondition field="ToCut" operator="&lt;=" value1="200" value2="" />
-  </ORcondition>
-</conditions>

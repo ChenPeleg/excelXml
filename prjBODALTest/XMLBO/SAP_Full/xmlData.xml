@@ -1,7 +1,0 @@
-﻿<Root>
-  <SAP_Main OpenDate="39159" PlannerName="בז''רנו דוד" 
-            ContractorCode="9293" ContractorName="טרפיטק טכנולוגיות וה" 
-    ElementNames="כביש 431,אזרחי,קטע א;כביש 431,אזרחי,קטע ב" 
-    CSNames="" LayerIndex="" SideCode="1" Guiding="" StageCode="57" Task="התקני תנועה ובטיחות." CorrectionRequired="" SAPOPNames="" DocumentationFilesNames="00425007_סיכום סיור בטיחות ותנועה מס 25   20.3:" Notes="" CloseDate="0" CloserName="" StatusCode="1" Id="491" UpdateTimeStamp="39230.346642253" Status="Update" InsertTimeStamp="39230.346642253" />
-  <SAP_Documentation Name="00425007_סיכום סיור בטיחות ותנועה מס 25   20.3" DocumentTypeName="דוח פיקוח עליון" DocumentationTypeId="9" GeoDocId="-1" DocumentPath="" InsertTimeStamp="" UpdateTimeStamp="" Id="0" SAPId="491" Status="Insert" />
-</Root>

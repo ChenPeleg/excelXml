@@ -1,7 +1,0 @@
-<root>
-  <APR_MaterialSource Id="-1" Date="38808" IsSourceSupplier="1" Source="" Name="ניסיון1" Notes="אין" IssuerName="ראובן" TestNames="K291632{H}מפרט 431,אספלט,בדיקות גלילי אספלט 15/03/2006{L}K288528{H}מפרט 431,אספלט,בדיקות גלילי אספלט 06/05/2004{L}" DocumentationFilesNames="בדיקות מעבדה-0:c:\inetpub\wwwroot\QCMainPage\TempDocs\XMLDataFull.xml*אחר-1:c:\inetpub\wwwroot\QCMainPage\TempDocs\xmlApproval.xml" PassId="3" IsDeleted="0" SpcBookStageId="3" PrjStageMatirialid="3001" SupplierId="1" Status="Insert" />
-  <APR_MaterialSource_Documentation DocumentationTypeIdName="בדיקות מעבדה" Name="c:\inetpub\wwwroot\QCMainPage\TempDocs\XMLDataFull.xml" DocumentationTypeId="3" Id="0" AprMaterialSourceId="-2" InsertTimeStamp="22/02/2005" Status="Insert" />
-  <APR_MaterialSource_Documentation DocumentationTypeIdName="אחר" Name="c:\inetpub\wwwroot\QCMainPage\TempDocs\xmlApproval.xml" DocumentationTypeId="1" Id="-1" AprMaterialSourceId="-2" InsertTimeStamp="22/02/2005" Status="Insert" />
-  <APR_MaterialSource_Test TSTMainId="3" CertificateId="K291632" TestDate="38789.000000000" TestedPart="רמפה 300 חתכים 3246-3248 L-C-R" WorkDescription="מפרט 431,אספלט,בדיקות גלילי אספלט" Id="0" AprMaterialSourceId="-1" InsertTimeStamp="22/02/2005" Status="Insert" />
-  <APR_MaterialSource_Test TSTMainId="1" CertificateId="K288528" TestDate="38111.000000000" TestedPart="עוקף 4311 (נתן) חתכים 202-217 צד L" WorkDescription="מפרט 431,אספלט,בדיקות גלילי אספלט" Id="-1" AprMaterialSourceId="-1" InsertTimeStamp="22/02/2005" Status="Insert" />
-</root>

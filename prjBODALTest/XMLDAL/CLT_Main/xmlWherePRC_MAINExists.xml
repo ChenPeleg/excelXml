@@ -1,7 +1,0 @@
-
-<conditions>
-  <ORcondition>
-    <AndCondition field="PRC_MainId" operator=" is not " value1="null" value2="" />
-    <AndCondition field="PRC_MainId" operator=">" value1="0" value2="" />
-  </ORcondition>
-</conditions>
