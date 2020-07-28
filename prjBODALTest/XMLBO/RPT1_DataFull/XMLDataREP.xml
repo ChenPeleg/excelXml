@@ -1,0 +1,31 @@
+<root Id="1">
+  <RPT_Main ID="1" Name="דו&quot;ח סטטיסטיקת בדיקות" IsDeleted="0" PageCount="1">
+    <RPT_Part Id="1002" RPTMainId="1" Pos="2" Name="אוכלוסיה" RowFactor="1" NumColumns="4" IsDeleted="0">
+      <RPT_Part_Column Id="1002001" RPTPartId="1002" Pos="1" Name="תאריך התחלה" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1002002" RPTPartId="1002" Pos="2" Name="תאריך סיום" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1002003" RPTPartId="1002" Pos="3" Name="אלמנטים" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1002004" RPTPartId="1002" Pos="4" Name="קבלן" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Data1002 Pos="1" RPTPartId="1002" DayFrom="@#8125" DayTo="@#8125" Elements="@#8125" Contractor="@#8125" />
+    </RPT_Part>
+    <RPT_Part Id="1003" RPTMainId="1" Pos="3" Name="נתוני בדיקות לשלב בטון בדיקה בדיקת צפיפות שדה - שיטה גרעינית" RowFactor="1" NumColumns="7" IsDeleted="0">
+      <RPT_Part_Column Id="1003001" RPTPartId="1003" Pos="1" Name="חומר" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1003002" RPTPartId="1003" Pos="2" Name="מספר" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1003003" RPTPartId="1003" Pos="3" Name="נכשלו" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1003004" RPTPartId="1003" Pos="4" Name="% כישלון" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1003005" RPTPartId="1003" Pos="5" Name="מספר מצטבר" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1003006" RPTPartId="1003" Pos="6" Name="נכשלו" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="1003007" RPTPartId="1003" Pos="7" Name="% כישלון" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Data1003 RPTPartId="1003" Pos="1" MatirialName="מקומי" TestCount="1" FailCount="0" FailPercent="0" AllTestCount="1" AllFailCount="0" AllFailPercent="0" />
+    </RPT_Part>
+    <RPT_Part Id="1" RPTMainId="1" Pos="1" Name="תוכן ענינים" RowFactor="1" NumColumns="5" IsDeleted="0">
+      <RPT_Part_Column Id="11" RPTPartId="1" Pos="1" Name="עמוד" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="12" RPTPartId="1" Pos="2" Name="מספר נושא" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="13" RPTPartId="1" Pos="3" Name="סדר" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="14" RPTPartId="1" Pos="4" Name="נושא" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="15" RPTPartId="1" Pos="5" Name="משורה בטבלה" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Column Id="16" RPTPartId="1" Pos="6" Name="עד שורה בטבלה" FormatCode="1" IsUpdateable="0" IsDeleted="0" />
+      <RPT_Part_Data1 RPTPartId="1" Pos="1" Page="1" PageRPTPartId="1002" PagePos="2" PageRPTPartName="אוכלוסיה" PageRowFrom="1" PageRowTo="1" />
+      <RPT_Part_Data1 RPTPartId="1" Pos="2" Page="1" PageRPTPartId="1003" PagePos="3" PageRPTPartName="נתוני בדיקות לשלב בטון בדיקה בדיקת צפיפות שדה - שיטה גרעינית" PageRowFrom="1" PageRowTo="1" />
+    </RPT_Part>
+  </RPT_Main>
+</root>

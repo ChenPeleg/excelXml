@@ -1,0 +1,6 @@
+<conditions>
+  <ORcondition>
+    <AndCondition field="ProductRoot" operator=" = " value1="10150" value2="" />
+   
+  </ORcondition>
+</conditions>

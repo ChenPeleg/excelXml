@@ -1,0 +1,7 @@
+<root>
+  <TST_Main CertificateId="1111" SpcBookStageSpecText="222" LayerIndex="222" SideCode="4" MaterialCode="142" LayerThickness="222" ReCheck="1" Comparison="1" TestDate="42872" ContractorCode="1" LabCode="3" MatirialOriginCode="3" Comments="333" passCode="2" StatusIssuerName="444" StatusIssueReasonCode="1" NCOpenStatusCode="1" NCId="444" NCStatusIssuerName="555" NCStatusIssueReasonCode="1" TestedPart="מפרט 531-20,קרקע יסוד,סקר קרקע" Status="Insert" Id="-1" CsNames="111-22" ElementsNames="הכל,פרוגרמת בדיקות 531/20" StageAttributesNames="Height- 2,Width- 3" />
+  <TST_CS FromCut="111" ToCut="22" Id="-1" Status="Insert" MainId="-1" />
+  <TST_Elements Id="-1" Status="Insert" MainId="-1" PrjProductTreeId="95137" ElementName="פרוגרמת בדיקות 531/20" FullPath="הכל,פרוגרמת בדיקות 531/20" />
+  <TST_StageAttribute AttributeName="Height" StageCode="3" MainId="-1" Value=" 2" Id="-1" Pos="2" ORDDEF_StageAttributeId="2" UpdateTimeStamp="0.000000000" InsertUserID="" InsertTimeStamp="0.000000000" Status="Insert" />
+  <TST_StageAttribute AttributeName="Width" StageCode="3" MainId="-1" Value=" 3" Id="-1" Pos="1" ORDDEF_StageAttributeId="1" UpdateTimeStamp="0.000000000" InsertUserID="" InsertTimeStamp="0.000000000" Status="Insert" />
+</root>

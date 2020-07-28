@@ -1,0 +1,5 @@
+<conditions>
+  <ORcondition>
+    <AndCondition field="TempFileName" operator="=" value1="5" value2="" />
+  </ORcondition>
+</conditions>

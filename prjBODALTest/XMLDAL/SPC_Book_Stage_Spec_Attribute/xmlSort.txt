@@ -1,0 +1,6 @@
+<SORTconditions>
+	<SORTCondition field="SPC_Book_Stage_SpecId"  AscDesc="ASC" />
+	<SORTCondition field="fieldsGroupCode"  AscDesc="ASC" />
+	<SORTCondition field="Pos"  AscDesc="ASC" />
+</SORTconditions>
+

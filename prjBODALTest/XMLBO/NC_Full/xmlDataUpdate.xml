@@ -1,0 +1,13 @@
+﻿<root>
+  <NC_Main Id="1142" OpenDate="39356" OpenerCode="100" ContractorCode="9492" ContractorName="מפעל סיבוס רימון" 
+           ElementNames="כביש 431,אזרחי,קטע ב,עין הקורא,מבנים,W-N-117;כביש 431,אזרחי,קטע ג,ראשונים,מבנים,W-N-118;כביש 431,אזרחי,קטע ג,ראשונים,מבנים,W-N-120" 
+           CSNames="" LayerIndex="" SideCode="" StageCode="7" SideName="" Task="ייצור אלמנטים ." 
+           Name="חוזק הבטון בגיל 28 יום נמוך מהנדרש בת&quot;י 118 עבור בטון ב-30. החוזק שהתקבל 27.0 מגפ&quot;ס ו27.5 מגפ''''ס.&#xD;&#xA;" SeverityCode="3" 
+           CorrectionRequired="יש לקבל התייחסות המתכנן.&#xD;&#xA;" NCOPNames="" 
+             DocumentationFilesNames="אי התאמה 1287 - פתיחה:4695*אי התאמה 1287:4696"
+           Notes="" CloseDate="0" CloserCode="" StatusCode="1" IsDeleted="0"   Status="Update" />
+  <NC_Documentation Name="313938-קרקע משוריינת נמוך 28" DocumentTypeName="בדיקות מעבדה" DocumentationTypeId="3" DocStorageId="4693" InsertTimeStamp="" UpdateTimeStamp="" Id="4693" NCId="1142" Status="Delete" />
+  <NC_Documentation Name="313944-קרקע משוריינת נמוך28" DocumentTypeName="בדיקות מעבדה" DocumentationTypeId="3"  DocStorageId="4694"   InsertTimeStamp="" UpdateTimeStamp="" Id="4694" NCId="1142" Status="Delete" />
+  <NC_Documentation Name="אי התאמה 1287 - פתיחה" DocumentTypeName="תכתובת" DocumentationTypeId="8" DocStorageId="4695" InsertTimeStamp="" UpdateTimeStamp="" Id="4695" NCId="1142" Status="" />
+  <NC_Documentation Name="אי התאמה 1287" DocumentTypeName="אי התאמה" DocumentationTypeId="5" DocStorageId="4696" InsertTimeStamp="" UpdateTimeStamp="" Id="4696" NCId="1142" Status="" />
+</root>

@@ -1,0 +1,6 @@
+<SORTconditions>
+	<SORTCondition field="MainId"  AscDesc="ASC" />
+	<SORTCondition field="fieldsGroupCode"  AscDesc="ASC" />
+	<SORTCondition field="Pos"  AscDesc="ASC" />
+</SORTconditions>
+

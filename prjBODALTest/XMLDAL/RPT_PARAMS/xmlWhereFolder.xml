@@ -1,0 +1,9 @@
+<conditions>
+  <ORcondition>
+      <AndCondition field="ReportFolder" operator="=" value1="/Qcdev/ריכוזים" value2="" />
+    <AndCondition field="ReportName" operator="=" value1="דוגמא לריכוז" value2="" />
+
+
+
+  </ORcondition>
+</conditions>

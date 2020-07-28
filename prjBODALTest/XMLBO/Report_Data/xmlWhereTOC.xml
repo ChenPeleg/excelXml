@@ -1,0 +1,5 @@
+<conditions>
+  <ORcondition>
+    <AndCondition field="Id" operator="=" value1="41" value2="" />
+  </ORcondition>
+</conditions>

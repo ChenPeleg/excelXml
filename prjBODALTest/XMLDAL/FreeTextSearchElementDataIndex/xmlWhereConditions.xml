@@ -1,0 +1,20 @@
+<conditions>
+  <ORcondition>
+    <AndCondition field="DataId" operator="=" value1="17940" value2="" />
+  </ORcondition>
+  <ORcondition>
+    <AndCondition field="FromCut" operator="=" value1="17940" value2="17940" />
+  </ORcondition>
+  <ORcondition>
+    <AndCondition field="ToCut" operator="=" value1="17940" value2="17940" />
+  </ORcondition>
+  <ORcondition>
+    <AndCondition field="DataIndexName" operator="Like" value1="%17940%" value2="" />
+  </ORcondition>
+  <ORcondition>
+    <AndCondition field="Comments" operator="Like" value1="%17940%" value2="" />
+  </ORcondition>
+  <ORcondition>
+    <AndCondition field="productid" operator="=" value1="900000" value2="" />
+  </ORcondition>
+</conditions>

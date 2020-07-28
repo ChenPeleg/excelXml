@@ -1,0 +1,5 @@
+<conditions>
+  <ORcondition>
+    <AndCondition field="PrjProductTreeId" operator="in" value1="(681)" value2="כביש 431,אזרחי,קטע א,מבוא איילון,מיסעות" />
+  </ORcondition>
+</conditions>

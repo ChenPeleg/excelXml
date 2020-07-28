@@ -1,0 +1,9 @@
+<root>
+  <TST_Main CertificateId="13433" SpcBookStageSpecId="1" LayerIndex="2" SideCode="-1" MatirialOriginCode="-1" ContractorCode="1" MaterialCode="3005" LabCode="7"
+            CsNames="108-108, 111-111, 113-113, " ElementsNames="הכל,כבישים,המעפילים - מעקף זמני" PurposeCode="0" TestDate="41430.000000000" 
+            Comments="Updated data" InsertUserID="TNM-WEB\tali" InsertTimeStamp="41447.548674413" UpdateUserID="TNM\Danny" UpdateTimeStamp="41447.548674413"
+            passCode="2" StageName="מצע" SpecName="בדיקת צפיפות שדה - שיטה גרעינית" ContractorName="אשטרום" MaterialName="מצע א אבן גרוסה"
+            LabName="המבדקה לבנין" TestedPart="כביש 531 מקטע דרומי הרצליה - חתך: 108,111,113 , מעל חציית ניקוז" 
+            SpcBookStageSpecText="מפרט 531-20,מצע,בדיקת צפיפות שדה - שיטה גרעינית" StageId="3" SpecID="1" ReCheck="0" LayerThickness="" IsPassUpdateable="1" StageAttributesNames="" 
+            StatusIssuerName="משה זילברשטיין" StatusIssueReasonCode="0" Comparison="0" NCOpenStatusCode="2" NCId="" NCStatusIssuerName="" NCStatusIssueReasonCode="2" Status="Update" Id="182" />
+</root>

@@ -1,0 +1,7 @@
+
+<conditions>
+  <ORcondition>
+    <AndCondition field="SpcBookStageSpecId" operator=" = " value1="8" value2="" />
+ 
+  </ORcondition>
+</conditions>

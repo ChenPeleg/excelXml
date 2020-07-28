@@ -1,0 +1,6 @@
+
+<conditions>
+  <ORcondition>
+    <AndCondition field="certificateid" operator=" in " value1="(select cert from tmpid)" value2="" />
+  </ORcondition>
+</conditions>
