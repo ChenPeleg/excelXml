@@ -66,22 +66,56 @@ namespace EPPlusWebSample
         /// Sample 1 
         /// Demonstrates the SaveAs method
         /// </summary>
-        private void Sample1()
+        private void Sample1B()
         {
             ExcelPackage pck = new ExcelPackage();
+
             var ws = pck.Workbook.Worksheets.Add("Sample1");
+
 
             ws.Cells["A1"].Value = "Sample 1";
             ws.Cells["A1"].Style.Font.Bold = true;
-            var shape = ws.Drawings.AddShape("Shape1", eShapeStyle.Rect);
-            shape.SetPosition(50, 200);
-            shape.SetSize(200, 100);
-            shape.Text = "Sample 1 saves to the Response.OutputStream";
+
+            //var shape = ws.Drawings.AddShape("Shape1", eShapeStyle.Rect);
+            //shape.SetPosition(50, 200);
+            //shape.SetSize(200, 100);
+            //shape.Text = "Sample 1 saves to the Response.OutputStream";
 
             pck.SaveAs(Response.OutputStream);
             Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
             Response.AddHeader("content-disposition", "attachment;  filename=Sample1.xlsx");
         }
+        private void Sample1()
+        {
+
+            var template = new FileInfo($"{AppDomain.CurrentDomain.BaseDirectory}GraphTemplate.xlsx");
+            using (ExcelPackage p = new ExcelPackage(template, true))
+            {
+                //Set up the headers
+                //default for sheets is 1 for dotnetcore
+                ExcelWorksheet ws = p.Workbook.Worksheets[1];
+                ws.Cells["A3"].Value = 123;
+                ws.Cells["B3"].Value = "123";
+                ws.Cells["C3"].Value = "123";
+                ws.Cells["D3"].Value = "123";
+                ws.Cells["E3"].Value = "EOD Rate";
+
+                p.SaveAs(Response.OutputStream);
+                Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+                Response.AddHeader("content-disposition", "attachment;  filename=Sample1.xlsx");
+            }
+         
+        }
+
+
+
+
+
+
+
+
+
+
         /// <summary>
         /// Sample 2
         /// Demonstrates the GetAsByteArray method

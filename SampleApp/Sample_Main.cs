@@ -49,7 +49,7 @@ namespace EPPlusSamples
                
                 //Set the output directory to the SampleApp folder where the app is running from. 
                 Utils.OutputDir = new DirectoryInfo($"{AppDomain.CurrentDomain.BaseDirectory}SampleApp");
-
+                /*
                 // Sample 1 - simply creates a new workbook from scratch
                 // containing a worksheet that adds a few numbers together 
                 Console.WriteLine("Running sample 1");
@@ -64,6 +64,12 @@ namespace EPPlusSamples
                 Console.WriteLine("Running sample 2");
                 Sample2.RunSample2(sample1Path);
                 Console.WriteLine();
+                Console.WriteLine("Running sample 4");
+                */
+                var sample4BPath = Sample4.RunSample4(connectionStr, new FileInfo($"{AppDomain.CurrentDomain.BaseDirectory}GraphTemplate.xlsx"));      //Template path from /bin/debug or /bin/release
+                Console.WriteLine("Sample 4 created: {0}", sample4BPath);
+                Console.WriteLine();
+
 
                 if (connectionStr != "")
                 {
@@ -85,7 +91,7 @@ namespace EPPlusSamples
                     Console.WriteLine();
                 }
                  
-
+/*
                 //Sample 5
                 //Open sample 1 and add a pie chart.
                 Console.WriteLine("Running sample 5");
@@ -174,6 +180,7 @@ namespace EPPlusSamples
                 Console.WriteLine("Running Sample_AddFormulaFunction");
                 Sample_AddFormulaFunction.RunSample_AddFormulaFunction();
                 Console.WriteLine(); 
+*/
             }
 			catch (Exception ex)
             {
