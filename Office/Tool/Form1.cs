@@ -25,7 +25,10 @@ namespace QiHe.Office.Tool
         private void newNToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //test create xls file
-            string file = "c:\\temp\\newdoc.xls";
+            Random rnd = new Random();
+            int rand = rnd.Next(1, 10000);
+
+            string file = "c:\\temp\\newdoc" +  rand.ToString()+ ".xls";
             Workbook workbook = new Workbook();
             Worksheet worksheet = new Worksheet("First Sheet");
             worksheet.Cells[0, 1] = new Cell(1);
